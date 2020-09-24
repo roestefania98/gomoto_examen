@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;500;700;900&family=Heebo:wght@500;700;900&display=swap');
+
+
+
+body{
+	font-size: 'Catamaran';
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+h1{
+	color: #fff;
+	font-family:'Heebo';
+	font-size: 80px;
+}
+
+h2{
+	font-family: 'Heebo';
+	font-size: 70px;
+}
+
+h3{
+	font-size: 40px;
+}
+
+#sit-at-home h3{
+	color: #f7b614;
+}
+
+h4{
+	font-size: 18px;
+}
+
+#cta-sub h4{
+	color: #fff;
+}
+
+#cta-sub h2{
+	font-size: 40px;
+	color: #282932
+}
+
+#hero h2{
+	color:#f7b614;
+}
+
+#popular-goods h3{
+	font-size: 18px;
+	color: #000;
+	font-weight: 900;
+}
+
+#hero{
+	background-color: #282932;
+	background-image: url(../img/slider-glob.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2% 0;
+	text-align: left;
+	background-clip:  #282932;
+	color: #fff;
+
+}
+
+
+#popular-goods{
+	text-align: center;
+	padding: 2% 0;
+}
+
+
+#popular-goods img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content{
+	padding: 20% 15%;
+}
+
+.content .title{
+	text-align: left;
+}
+
+.content p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#sit-at-home{
+	background-color:#282932;
+	color: #fff;
+}
+
+.bg-sit{
+	background-image:url(../img/sit-photo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#cta-sub{
+	padding: 60px 0;
+	background-color: #f7b614;
+}
